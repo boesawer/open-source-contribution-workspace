@@ -1,0 +1,31 @@
+# Contributions
+
+## Pull Requests
+
+| Date | Repository | Pull Request | Area | Status |
+| --- | --- | --- | --- | --- |
+| 2026-05-17 | `anurag3407/career-pilot` | [Add profile summary character counter](https://github.com/anurag3407/career-pilot/pull/125) | Frontend | Open |
+| 2026-05-17 | `Canopus-Labs/PrepPilot` | [Add upload file size limit](https://github.com/Canopus-Labs/PrepPilot/pull/7) | Backend | Open |
+
+## Contribution Notes
+
+### `career-pilot`
+
+Added a character counter to a profile summary input in the onboarding flow and included the value in the existing profile payload.
+
+Checks run:
+
+```text
+npx eslint src/pages/fellowship/Onboarding.jsx
+npm run build
+```
+
+### `PrepPilot`
+
+Added a 5MB upload size limit to the Multer upload middleware while keeping the existing storage and file type validation behavior.
+
+Check run:
+
+```text
+node --check backend/middlewares/uploadMiddleware.js
+```
