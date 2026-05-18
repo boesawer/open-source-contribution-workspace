@@ -4,7 +4,7 @@
 
 | Date | Repository | Pull Request | Area | Status |
 | --- | --- | --- | --- | --- |
-| 2026-05-17 | `anurag3407/career-pilot` | [Add profile summary character counter](https://github.com/anurag3407/career-pilot/pull/125) | Frontend | Open |
+| 2026-05-17 | `anurag3407/career-pilot` | [Add profile summary character counter](https://github.com/anurag3407/career-pilot/pull/125) | Frontend | Merged |
 | 2026-05-17 | `Canopus-Labs/PrepPilot` | [Add upload file size limit](https://github.com/Canopus-Labs/PrepPilot/pull/7) | Backend | Open |
 | 2026-05-18 | `ProKelly/mychart` | [Add lobby room join form](https://github.com/ProKelly/mychart/pull/5) | Django | Open |
 | 2026-05-18 | `future-agi/future-agi` | [Add confirmation dialog for eval template deletion](https://github.com/future-agi/future-agi/pull/534) | Frontend | Open |
@@ -14,6 +14,8 @@
 ### `career-pilot`
 
 Added a character counter to a profile summary input in the onboarding flow and included the value in the existing profile payload.
+
+Merged on 2026-05-18.
 
 Checks run:
 
